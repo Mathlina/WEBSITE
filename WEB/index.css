@@ -1,0 +1,194 @@
+/*==================================
+# General
+=================================== */ 
+
+body{
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden;
+   box-sizing: border-box;
+   background-color: #e6e6e6;
+
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 0 40px;
+}
+
+.row {
+	display: flex;
+	gap: 3em;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%
+}
+
+.col {
+	width: 300px;
+	height: 250px;
+}
+
+.pt {
+  padding-top: 2em;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: 100%;
+}
+
+/*==================================
+# Navigation
+=================================== */ 
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	height: 70px;
+	line-height: 70px;
+	background-color: #e6e6e6;
+}
+
+.navbar .logo{
+	width: 60px;
+	margin-left: 60px;
+	outline: none;
+}
+
+.navbar .cart{
+	width: 40px;
+	cursor:pointer;
+	margin-right: 60px;
+}
+
+.navbar .navbar-nav {
+	margin-right: auto;
+	display: flex;
+	outline: none;
+}
+
+.navbar .navbar-nav .nav-item {
+	list-style:none;
+	margin: 0px 20px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+	text-decoration: none;
+	color: #333;
+	font-size:20px;
+}
+ 
+/*==================================
+# Hero
+=================================== */ 
+
+#hero {
+	height: 600px;
+	background-color: #e6e6e6;
+}
+
+#hero .content {
+	 margin-top: 90px;
+	 margin-right: 200px;
+ }
+
+#hero .content h1 {
+	font-size: 40px;
+	height: italic;
+	margin-top: 24px;
+	margin-bottom: 15px;
+	color: #232d60;
+}
+
+#hero .content p {
+	font-size: 20px;
+	color: #6a71199;
+}
+
+#hero .content .btn {
+	display:inline-block;
+	background: linear-gradient(45deg, #87adfe, #ff77cd);
+	border-radius:6px;
+	padding:10px 20px;
+	box-sizing:border-box;
+	text-decoration:none;
+	color:#fff;
+	box-shadow:3px 8px 22px rgba(94,28,68,0,15);
+}
+
+#hero .arrow-icons{
+	margin-top: 40px;
+	display: flex;
+}
+
+#hero .arrow-icons img{
+	width:30px;
+	margin-right:25px;
+}
+
+#hero .hero-img {
+	margin-top: 90px;
+	margin-left: -30px;
+}
+
+#hero .feature-img {
+	width: 350px;
+	height: 350px;
+}
+
+#hero .social-links {
+	transform: rotate(-90deg);
+	position: absolute;
+	top: 1000px;
+	left: -80px;
+    bottom: -180px;
+ }
+ 
+#hero .social-links a {
+	text-decoration:none;
+	color:#6a7199;
+	padding-right:20px;
+	font-size:14px;
+ }
+
+/*==================================
+# New Arrivals
+=================================== */ 
+
+#new {
+	padding: 30px 0 70px 0;
+	background: #fff;
+}
+
+#new h2 {
+	font-size: 50px;
+	font-weight: 600;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+/*==================================
+# Footer
+=================================== */ 
+
+#footer {
+	background: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#footer p {
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	color: #e3e3e3;
+}
+
